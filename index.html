@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Link</title>
+  <style>
+    /* Reset Default */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #4b79a1);
+      background-attachment: fixed;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Container */
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      width: 90%;
+      max-width: 360px;
+    }
+
+    /* Gambar Profil */
+    .profile-picture {
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 4px solid #4b79a1;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Bio */
+    .bio {
+      margin: 8px 0 15px;
+      padding: 10px 15px;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+      color: #ddd;
+      font-size: 0.95rem;
+      font-weight: 300;
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Tombol Modern */
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(145deg, #1e3c72, #2a5298); /* Warna gradien modern */
+      padding: 12px 25px; /* Ukuran tombol lebih ramping */
+      margin: 8px 0;
+      border-radius: 30px; /* Sudut tombol lebih melengkung */
+      font-size: 1rem;
+      font-weight: 600;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      max-width: 240px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .links a:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(145deg, #2a5298, #1e3c72); /* Warna gradien terbalik saat hover */
+    }
+
+    .links a:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .links a img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 18px;
+      font-size: 0.85rem;
+      color: #bbb;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .footer a:hover {
+      color: #4b79a1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://telegra.ph/file/833b33b26fde92e3e3a17.jpg" alt="Foto Profil" class="profile-picture">
+    <h1>Nama Anda</h1>
+    <p class="bio">Deskripsi singkat tentang Anda, minat, atau pekerjaan Anda. 🚀</p>
+    <div class="links">
+      <a href="https://luniaai.my.id" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/internet.png" alt="Website Icon">
+        Website
+      </a>
+      <a href="https://instagram.com/randomshare07" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram Icon">
+        Instagram
+      </a>
+      <a href="https://wa.me/6282242995870" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp Icon">
+        WhatsApp
+      </a>
+      <a href="https://whatsapp.com/channel/0029VaalShkGZNCsXgFPO80A" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="Channel WhatsApp Icon">
+        Channel WhatsApp
+      </a>
+      <a href="https://github.com/AP-update" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub Icon">
+        GitHub
+      </a>
+    </div>
+    <div class="footer">
+      <p>Dibuat dengan ❤ oleh <a href="#">AP</a></p>
+    </div>
+  </div>
+</body>
+</html>
